@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using HotelListing.API.Data;
 using HotelListing.API.Models;
 using AutoMapper;
-using HotelListing.API.Models.Hotels;
 using HotelListing.API.Contracts;
 
 namespace HotelListing.API.Controllers

@@ -1,4 +1,4 @@
-﻿namespace HotelListing.API.Models.Hotels
+﻿namespace HotelListing.API.Models
 {
     public class UpdateCountryDto : BaseCountryDto
     {
