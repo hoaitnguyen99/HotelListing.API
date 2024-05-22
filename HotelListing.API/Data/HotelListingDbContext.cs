@@ -8,8 +8,8 @@ public class HotelListingDbContext : DbContext
     {
 
     }
-    DbSet<Hotel> Hotels { get; set; }
-    DbSet<Country> Countries { get; set; }
+    public DbSet<Hotel> Hotels { get; set; }
+    public DbSet<Country> Countries { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
